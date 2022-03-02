@@ -1,0 +1,66 @@
+.page4{
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    margin-top: 8vmax;
+    /* background-color: red; */
+}
+
+.page4-left{
+    width: 45vw;
+    height: 80vh;
+    padding-right: 5vmax;
+}
+
+
+.page4-left h1{
+    font:500 3.5vmax roboto;
+    letter-spacing: -3px;
+    margin-top: 8vmax;
+}
+
+.page4-left p{
+    font:300 1vmax roboto;
+    letter-spacing: 1px;
+    color: grey;
+    text-shadow: 1px 1px 1px grey;
+    margin-top: 3vmax;
+    line-height: 25px;
+}
+
+.page4-right{
+    width: 45vw;
+    height: 80vh;
+    background-image: url(../images/Group\ 23.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    transform: scale(1.8);
+}
+
+.page4-btns{
+    display: flex;
+    margin-top: 3vmax;
+}
+
+.page4-btns img{
+    width: 4vmax;
+    height: 2vmax;
+}
+
+.page4-btns button{
+    padding: .2vmax 1vmax;
+    border-radius: 15px;
+    border: none;
+}
+
+.page4-btns button:nth-child(1){
+    background-color: rgb(0, 25, 109);
+}
+
+.page4-btns button:nth-child(2){
+    background-color: rgb(255, 129, 45);
+    margin-left: 1vmax;
+}
+

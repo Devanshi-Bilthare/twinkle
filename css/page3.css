@@ -1,0 +1,41 @@
+.page3{
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.page3-left{
+    width: 45vw;
+    height: 100vh;
+    background-image: url(../images/Group\ 33.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.5);
+}
+
+.page3-right{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0 6vmax;
+}
+
+.page3-right h1{
+    font:500 3.5vmax roboto;
+    letter-spacing: -3px;
+}
+
+.page3-right p{
+    font:300 1vmax roboto;
+    letter-spacing: 1px;
+    color: grey;
+    text-shadow: 1px 1px 1px grey;
+    margin-top: 3vmax;
+    line-height: 25px;
+}

@@ -1,0 +1,34 @@
+.page5{
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vmax;
+}
+
+.page5-image{
+    width: 90vw;
+    height: 55vh;
+    background-image: url(../images/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: scale(2);
+    /* background-color: red; */
+    margin-top: 7vmax;
+}
+
+.page5 h1{
+    font:500 3vmax roboto;
+    text-shadow: 2px 2px 2px;
+    margin-bottom: 2vmax;
+}
+
+.page5 p{
+    font:300 1vmax roboto;
+    letter-spacing: 1px;
+    color: grey;
+    text-shadow: 1px 1px 1px grey;
+}

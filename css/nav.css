@@ -1,0 +1,150 @@
+/* nav{
+    width: 90vw;
+    height: 15vh;
+    margin: auto;
+    background-color: transparent;
+    /* background-color: green; */
+/* } */ 
+
+.mobile-nav{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.mobile-nav img{
+    height: 3.5vmax;
+}
+
+.mobile-bg{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.904);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: 1s all;
+    color: #fff;
+    z-index: 555;
+}
+
+.close-btn{
+    margin: 3vmin 0 0 88vmin;
+     font-size: 30px;
+}
+
+.mobile-list{
+    height: 35vh;
+    width: 100vw;
+    /* background-color: red; */
+    margin-top: 15vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font:300 2.5vmax roboto;
+    letter-spacing: 1px;
+}
+
+.mobile-btn{
+    font:300 2.5vmax roboto ;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 1vmax 1.5vmax;
+    border-radius: 2vmin;
+}
+
+.open-btn{
+    font-size: 4vmax;
+}
+
+.desktop-nav{
+    margin: auto;
+    width: 90vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.nav-logo{
+    height: 2.5vmax;
+    margin-right: 2vmax;
+}
+
+.left-nav {
+   display: flex;
+   align-items: center;
+}
+
+.nav-lists {
+    display: flex;
+    align-items: center;
+}
+
+.nav-lists li{
+    list-style: none;
+    font :300 1.1vmax roboto;
+    color: rgb(80, 80, 80);
+    margin-left: 3vmax;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.nav-btn{
+    font:300 1vmax roboto;
+    text-transform: capitalize;
+    text-shadow: 1px 1px black;
+    letter-spacing: 1px;
+    padding: .9vmax 1.5vmax;
+    border-radius: 15px;
+    border:2px solid black;
+    background-color: transparent;
+}
+
+
+@media (max-width: 600px) {
+  
+    .desktop-nav{
+        display: none;
+    }
+    
+    .mobile-nav{
+        position: fixed;
+        top: 0;
+        left: 1%;
+        z-index: 2222;
+    }
+  }
+
+  
+@media (min-width: 600px) {
+  
+    .mobile-nav{
+        display: none;
+    }
+    
+    
+  }
+
+    
+@media (max-width: 1000px) {
+  
+    .nav-btn{
+        border-radius: 10px;
+    }
+    
+    
+  }
+  
+
