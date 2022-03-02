@@ -64,3 +64,33 @@
     margin-left: 1vmax;
 }
 
+
+@media (max-width: 600px) {
+  
+    .page4{
+        display: block;
+        height: 90vh;
+    }
+    .page4-left{
+        height: 40vh;
+        width: 90vw;
+        padding: 0 6vmax;
+    }
+    .page4-right{
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .page4-left h1{
+        letter-spacing: 0;
+       
+    }
+
+    .page4-left p{
+        text-shadow: none;
+        line-height: 15px;
+    }
+  
+    
+    }
+

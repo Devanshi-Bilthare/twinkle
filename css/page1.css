@@ -54,3 +54,22 @@
    
 }
 
+
+@media (max-width: 600px) {
+    .page1{
+        height: 50vh;
+        position: relative;
+    }
+    .page1-left{
+        width: 90vw;
+        padding-top: 5vmax;
+    }
+    .page1-right{
+        position: absolute;
+        z-index: -1111;
+        left:20vmax;
+    }
+    .page1-left p{
+        text-shadow: none;
+    }
+  }

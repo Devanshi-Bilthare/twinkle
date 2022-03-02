@@ -29,3 +29,28 @@
     letter-spacing: 1.5px;
     line-height: 22px;
 }
+
+
+@media (max-width: 600px) {
+    .page6{
+        display: block;
+    }
+
+    .page6-left{
+        height: 50vh;
+        width: 90vw;
+    }
+
+    .page6-right{
+        height: 50vh;
+        width: 90vw;
+    }
+    .page6-right h2{
+        text-shadow: 1px 1px 1px;
+    }
+
+    .page6-right p{
+        line-height: 20px;
+    }
+   
+   }

@@ -32,3 +32,24 @@
     color: grey;
     text-shadow: 1px 1px 1px grey;
 }
+
+
+@media (max-width: 600px) {
+     .page5{
+         height: 60vh;
+     }
+    .page5 h1{
+        text-shadow: 1px 1px 1px;
+    }
+
+    .page5 p{
+        text-shadow: none;
+        letter-spacing: 0;
+    }
+  
+    .page5-image{
+        width: 80vw;
+        height: 30vh;
+    }
+    
+    }

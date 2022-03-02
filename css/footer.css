@@ -1,12 +1,12 @@
 footer{
     width: 100vw;
-    height:70vh;
+    height:68vh;
     overflow: hidden;
 }
 
 .top-footer{
     width: 90vw;
-    height: 40vh;
+    /* height: 40vh; */
     display: flex;
     justify-content: space-between;
     margin: 4vmax auto 0 auto;
@@ -14,9 +14,6 @@ footer{
     /* background-color: red; */
 }
 
-.box{
-    height: 40vh;
-}
 
 
 .box img{
@@ -116,4 +113,45 @@ footer{
 .black-footer p i{
     margin-right: .3vmax;
 }
+
+
+@media (max-width: 600px) {
+   .top-footer{
+       display: block;
+   }
+   footer{
+       height: 131vh;
+   }
+   .box{
+       width: 90vw;
+       margin-top: 4vmax;
+   }
+
+   .box ul{
+       margin-top: 1.5vmax;
+   }
+
+   .box h3{
+       font-size: 2vmax;
+   }
+   .box p,
+   .box ul li{
+       font-size: 1.2vmax;
+   }
+
+   .icon-circle{
+       width: 5vmax;
+       height: 5vmax;
+       background: linear-gradient(rgba(175, 122, 122, 0.863),rgba(211, 144, 191, 0.397));
+   }
+   .icon-circle i{
+       font-size: 2vmax;
+   }
+
+   .black-footer{
+       padding: 0 5vmax;
+   }
+  
+    
+    }
 
